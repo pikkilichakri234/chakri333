@@ -1,0 +1,47 @@
+DevSecOps (Development, Security, and Operations) integrates security practices within the DevOps process. This approach ensures that security is considered at every stage of the software development lifecycle. Here are some popular DevSecOps tools, categorized by their primary functions:
+
+### 1. **Code Analysis**
+- **SonarQube**: Continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities.
+- **Checkmarx**: Offers static application security testing (SAST) to identify security vulnerabilities in source code during the development process.
+
+### 2. **Dependency Management**
+- **OWASP Dependency-Check**: A tool that identifies project dependencies and checks if there are any known, publicly disclosed vulnerabilities.
+- **Snyk**: Finds and fixes vulnerabilities and license violations in open-source dependencies and container images.
+
+### 3. **Configuration Management**
+- **Ansible**: Provides configuration management, provisioning, and application deployment capabilities.
+- **Chef**: Automates infrastructure management, allowing for configuration as code.
+
+### 4. **Container Security**
+- **Aqua Security**: Provides full lifecycle security for containers and serverless functions.
+- **Twistlock (now Prisma Cloud)**: Comprehensive cloud-native security platform for securing containers and Kubernetes environments.
+
+### 5. **Continuous Integration/Continuous Deployment (CI/CD) Security**
+- **Jenkins**: Integrates with various security plugins to incorporate security checks within the CI/CD pipeline.
+- **GitLab CI/CD**: Offers built-in security scanning tools for static and dynamic analysis, dependency scanning, and container scanning.
+
+### 6. **Runtime Application Self-Protection (RASP)**
+- **Contrast Security**: Provides real-time application security by monitoring and blocking threats from within the application.
+- **Imperva**: Offers RASP capabilities to provide in-depth application security and protection.
+
+### 7. **Monitoring and Logging**
+- **ELK Stack (Elasticsearch, Logstash, Kibana)**: Provides logging, monitoring, and analytics capabilities.
+- **Splunk**: Security information and event management (SIEM) platform that provides real-time monitoring and event management.
+
+### 8. **Incident Management and Response**
+- **PagerDuty**: Incident response platform for real-time operations.
+- **Opsgenie**: Integrates with various monitoring tools to provide alerting and on-call management.
+
+### 9. **Vulnerability Management**
+- **Nessus**: A widely used vulnerability scanner that helps identify vulnerabilities in systems and applications.
+- **Qualys**: Cloud-based platform that provides vulnerability management, compliance, and security analytics.
+
+### 10. **Secret Management**
+- **HashiCorp Vault**: Securely stores and tightly controls access to tokens, passwords, certificates, API keys, and other secrets.
+- **CyberArk Conjur**: Provides enterprise-grade secrets management for securing DevOps environments.
+
+### 11. **Threat Modeling**
+- **Microsoft Threat Modeling Tool**: Helps identify and address potential security issues during the design phase.
+- **OWASP Threat Dragon**: An open-source tool for modeling threats to applications.
+
+These tools play a crucial role in ensuring that security is integrated throughout the DevOps pipeline, from code analysis and dependency management to runtime protection and incident response.
